@@ -6,4 +6,4 @@ Description: Page about my hobby
 Min hobby
 ==================
 
-Jag har sedan innan jag kunde gå sprungit orientering. Det är en härlig sport ute i skogen med utmaningar för både kropp och knopp.
+Utöver det nyfunna intresset för programmering så är mitt stora intresse i livet aktiehandel, främst swingtrading. Utöver att, förhoppningsvis, hitta rätt karriärsval ser jag dessa två år som en möjlighet att testa på om jag har den disciplin som krävs för att kunna utveckla swingtradingen till en kontinuerligt lönsam inkomstkälla.

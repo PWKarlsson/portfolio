@@ -22,11 +22,15 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: white;
 }
 
 .main {
     flex: 1 0 auto;
+    margin: auto;
+    width: 50%;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .header, .footer {
@@ -40,11 +44,15 @@ body {
     justify-content: space-between;
 }
 
+.header {
+    border-bottom: 3px solid black;
+}
 
 /* Title */
 
 .title, .logo {
     padding: 1em 3em 3em 0;
+    margin: auto;
 }
 
 @media (max-width: 767px) {
@@ -67,20 +75,32 @@ body {
     font-style: italic;
 }
 
+.logo {
+    width: 200px;
+    margin-left: 20px;
+}
+
+
 /* Footer */
 
 .footer {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #222;
+    background-color: #96d708;
+    color: white;
+    padding-left: 2rem;
 }
 
 .footer a {
     color: #222;
+    padding-left: 1rem;
 }
 
 .footer .social {
     font-size: 2rem;
+    padding-right: 1em;
+    padding-top: 1rem;
 }
 
 /* Typografy */
