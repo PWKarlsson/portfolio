@@ -6,14 +6,14 @@ Description: This is our test page.
 Test page
 ==================
 
-<div class = "first_box">
+<div class = "first-box">
 </div>
 
-<div class = "second_box">
+<div class = "second-box">
 </div>
 
-<div class = "third_box">
+<div class = "third-box">
 </div>
 
-<div class = "fourth_box">
+<div class = "fourth-box">
 </div>
