@@ -95,6 +95,7 @@ body {
 .footer a {
     color: #222;
     padding-left: 1rem;
+    text-decoration: none;
 }
 
 .footer .social {
