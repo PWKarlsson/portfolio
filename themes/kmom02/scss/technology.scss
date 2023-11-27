@@ -127,3 +127,12 @@
         display: none;
     }
 }
+
+.design {
+    grid-column: span 3;
+    grid-row: 3;
+}
+
+.load {
+    grid-column: span 2;
+}

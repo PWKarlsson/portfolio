@@ -31,6 +31,9 @@ body {
     width: 64em;
     padding-top: 3em;
     padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: $background-color-main;
 }
 
 .header, .footer {
@@ -40,7 +43,7 @@ body {
 /* Header */
 
 .site-header {
-    height: 200px;
+    height: 150px;
 }
 
 .header, .site-header {
@@ -49,7 +52,8 @@ body {
 }
 
 .header {
-    border-bottom: 3px solid #333;
+    background-color: $background-header-color;
+    // border-bottom: 3px solid $accent-color
 }
 
 /* Title */
@@ -62,7 +66,7 @@ body {
 
 .logo {
     padding-left: 1em;
-    max-width: 256px;
+    max-width: 200px;
     min-width: 80px;
 }
 
@@ -91,14 +95,17 @@ body {
     padding-right: 1em;
 }
 
+.nav a {
+        color: $font-color
+}
+
 /* Footer */
 
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid #333;
-    background-color: #96d708;
-    color: #fff;
+    border-top: 2px solid $accent-color;
+    background-color: $background-footer-color;
     padding-left: 1rem;
 
     .social {
@@ -114,4 +121,13 @@ body {
 
 img {
     max-width: 100%;
+}
+
+.website-img {
+    aspect-ratio: 16/9;
+    width: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin: 1em 1em 0.5em 0;
+    float: left;
 }
