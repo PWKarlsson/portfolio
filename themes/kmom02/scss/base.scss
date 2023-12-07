@@ -96,7 +96,7 @@ body {
 }
 
 .nav a {
-        color: $font-color
+    color: $font-color
 }
 
 /* Footer */
@@ -119,7 +119,7 @@ body {
     }
 }
 
-img {
+img, embed, object, video {
     max-width: 100%;
 }
 
@@ -130,4 +130,8 @@ img {
     object-position: top;
     margin: 1em 1em 0.5em 0;
     float: left;
+}
+
+li {
+    font-size: 1rem;
 }
