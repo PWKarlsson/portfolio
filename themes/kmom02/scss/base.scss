@@ -7,8 +7,8 @@
 }
 
 ol, ul {
-    padding-left: 1.5em;
-    font-size: 1.2rem;
+    padding-left: 1em;
+    font-size: 1.1rem;
 }
 
 .hidden {
@@ -31,9 +31,10 @@ body {
     width: 64em;
     padding-top: 3em;
     padding-bottom: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     background-color: $background-color-main;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
 }
 
 .header, .footer {
@@ -43,7 +44,8 @@ body {
 /* Header */
 
 .site-header {
-    height: 150px;
+    height: 200px;
+    width: 25em;
 }
 
 .header, .site-header {
@@ -52,8 +54,9 @@ body {
 }
 
 .header {
+    margin: 0 auto;
     background-color: $background-header-color;
-    // border-bottom: 3px solid $accent-color
+    height: 160px;
 }
 
 /* Title */
@@ -64,11 +67,11 @@ body {
     margin: auto;
 }
 
-.logo {
-    padding-left: 1em;
-    max-width: 200px;
-    min-width: 80px;
+.logo img {
+    height: 120px;
+    width: 120px;
 }
+
 
 @media (max-width: 767px) {
     .title, .logo {
@@ -80,7 +83,7 @@ body {
     }
 
     .logo {
-        max-width: 10%;
+        max-width: 80%;
     }
 
     .main {
@@ -93,6 +96,7 @@ body {
 .nav {
     margin: auto;
     padding-right: 1em;
+    width: 41em;
 }
 
 .nav a {
@@ -104,18 +108,26 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid $accent-color;
     background-color: $background-footer-color;
     padding-left: 1rem;
+    height: 100px;
 
     .social {
         padding-right: 1rem;
-        padding-top: 3em;
+        padding-top: 2em;
     }
 
     .social a {
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    p {
+        color : $footer-logo;
+    }
+
+    i {
+        color: $footer-logo;
     }
 }
 
@@ -132,6 +144,11 @@ img, embed, object, video {
     float: left;
 }
 
-li {
-    font-size: 1rem;
+li a {
+    // font-size: 1.1rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: wavy underline;
 }
